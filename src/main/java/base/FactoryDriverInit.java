@@ -30,6 +30,7 @@ public class FactoryDriverInit extends Base {
 
     @AfterClass(description = "quit sessions")
     public void afterClass() {
+
         driverManager.quitDriver();
     }
 }
