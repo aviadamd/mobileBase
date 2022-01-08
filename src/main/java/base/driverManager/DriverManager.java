@@ -1,6 +1,6 @@
 package base.driverManager;
 
-import base.Base;
+import base.BaseMobile;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -13,7 +13,7 @@ import org.openqa.selenium.WebDriver;
  * I have implements the manager interface for add more
  * abstraction on the get driver and quit driver
  */
-public abstract class DriverManager extends Base implements Manager {
+public abstract class DriverManager extends BaseMobile implements Manager {
 
     /**
      * every class that extend this abstract class will get two implementations to do

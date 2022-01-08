@@ -7,7 +7,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 
-public class FactoryDriverInit extends Base {
+public class FactoryDriverInit extends BaseMobile {
 
     private DriverManager driverManager;
 

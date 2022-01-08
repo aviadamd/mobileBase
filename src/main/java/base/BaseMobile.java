@@ -7,14 +7,16 @@ import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import ru.yandex.qatools.ashot.Screenshot;
+import utilities.UiUtilitiesObjects;
 
 @Slf4j
-public class Base {
+public class BaseMobile {
 
     public static WebDriver driver;
     public static Proxy seleniumProxy;
     public static BrowserMobProxy mobProxy;
     public static AppiumDriverLocalService server;
+    public static UiUtilitiesObjects utilities;
     public static PropertyConfig getProperty;
     public static Screenshot imageScreenShot;
 

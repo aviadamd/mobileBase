@@ -1,12 +1,12 @@
 package base.driverManager;
 
-import base.Base;
+import base.BaseMobile;
 import base.driverManager.InitDrivers.RemoteDriverManager;
 import base.driverManager.InitDrivers.android.AndroidDriverManager;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class DriverManagerFactory extends Base {
+public class DriverManagerFactory extends BaseMobile {
     /**
      * This class init the driver instance by is type chrome/fire/driver etc...
      * Its hold the driver manager instance and will return the driver
